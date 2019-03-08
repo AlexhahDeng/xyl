@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xyl:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xyl</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xyl.war">
+      <element id="artifact" artifact-name="xyl:war exploded" />
+    </root>
+  </artifact>
+</component>
